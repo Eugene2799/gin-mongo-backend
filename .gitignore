@@ -1,0 +1,17 @@
+# Project
+.idea
+config.yaml
+
+#vs code
+__debug_bin
+.vscode
+
+# Build
+out
+*.exe
+*.zip
+vendor
+
+.DS_Store
+test.ps1
+env.ps1
