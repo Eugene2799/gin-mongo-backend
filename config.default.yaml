@@ -1,0 +1,25 @@
+# 开发环境
+env: 'dev'  # 'dev'|'test'|'prod'
+
+# Gin 网络配置
+http:
+  port: 5922
+  jwt:
+    key: jwt-key
+    expires: 1h
+  session:
+    key: my-key
+    expires: 30
+
+# MongoDB 主数据库配置
+db:
+  host: 127.0.0.1
+  port: 27017
+  db: dbname
+  user: dbuser
+  password: dbpassword
+
+# APIs地址配置
+apis:
+  usersAPI: https://xxx.com/api
+  toolsAPI: https://xxx.com/api
