@@ -2,8 +2,8 @@
 
 > 这是一个简单的Gin+Mongodb后端服务程序。
 >首先，自己需要搭建一个mongodb数据库。
->修改配置config.default.yaml中的内容，并修改文件为config.yaml
->,最后运行go程序。
+>修改配置config.default.yaml中的内容，并修改文件为config.yaml,
+>最后运行go程序。
 
 
 ## 插件列表
@@ -30,3 +30,26 @@
     gopkg.in/yaml.v2 
 ```
 
+## 目录结构
+```js
+.
+├── app
+│   ├── api
+│   ├── controllers
+│   └── handler
+├── middleware
+├── models
+└── utils
+```
+
+## 接口测试
+### 1. 
+### 2. getHTML
+```js
+url: http://localhost:5922/v1/getHTML
+method: POST
+type: form-data
+params: 
+{ url: http://www.baidu.com }
+```
+### 3. 
